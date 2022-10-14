@@ -5,7 +5,11 @@ using UnityEngine.InputSystem;
 
 public class inputaction : MonoBehaviour
 {
-    public void ActivateLog() {
+    public GameObject particleGameObject;
+    bool isActive;
+
+    public void ActivateLog(InputAction.CallbackContext context) {
         Debug.Log("It works");
+        particleGameObject.SetActive(!isActive);
     }
 }
