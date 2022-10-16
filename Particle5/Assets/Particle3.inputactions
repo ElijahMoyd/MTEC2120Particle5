@@ -1,0 +1,34 @@
+{
+    "name": "Particle3",
+    "maps": [
+        {
+            "name": "Part3",
+            "id": "9629df5b-7d11-4bde-a5f0-a2f1e5256a83",
+            "actions": [
+                {
+                    "name": "Activate3",
+                    "type": "Button",
+                    "id": "1b53d5cd-c34d-4cc3-936f-ead000274c5d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "647aef10-4509-4198-8405-0218ff584b9a",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

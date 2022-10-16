@@ -1,0 +1,34 @@
+{
+    "name": "Particle4",
+    "maps": [
+        {
+            "name": "Activate4",
+            "id": "36f78849-719e-49bb-8764-2f0be5746efa",
+            "actions": [
+                {
+                    "name": "Activate4",
+                    "type": "Button",
+                    "id": "6272c79b-af4b-4e8d-859f-3139b5de9e2d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0ec73c3d-a992-4292-b886-565e48c61147",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
